@@ -6,7 +6,11 @@
 trigger:
 - master
 
-pool: 'build agent'
+pool:
+  demands: [ build agent ] 
+
+#pool: 'build agent'
+  #demands:
   
 
 steps:
