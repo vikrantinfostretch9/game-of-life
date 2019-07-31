@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  Agent.Version: '2.154.3'
+pool: 'build agent'
+  
 
 steps:
 - task: Maven@3
