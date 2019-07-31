@@ -6,8 +6,10 @@
 trigger:
 - master
 
-pool: build agent
-  demands:  
+pool:
+  name: build agent
+  demands:
+  - agent.os -equals Linux
 
 #pool: 'build agent'
   #demands:
