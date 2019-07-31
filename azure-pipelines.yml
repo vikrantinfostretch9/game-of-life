@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  demands: [ build agent ] 
+pool: build agent
+  demands:  
 
 #pool: 'build agent'
   #demands:
